@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
@@ -14,6 +12,10 @@ public class PlayerController : MonoBehaviour
     public LayerMask reachedExit;
 
     public Animator anim;
+
+    private AudioClip fallSound;
+    private AudioClip deathSound;
+    private AudioClip nextSound;
 
     // Start is called before the first frame update
     void Start()
