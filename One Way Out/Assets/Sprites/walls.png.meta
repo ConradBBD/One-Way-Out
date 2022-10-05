@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -982,7 +982,6 @@ TextureImporter:
       walls_36: -2017756322
       walls_27: 1299570797
       walls_9: -1068917266
-      walls_33: -347399983
       walls_22: -1341284588
       walls_32: -158212465
       walls_34: -642653546
@@ -1006,12 +1005,13 @@ TextureImporter:
       walls_4: 1283001870
       walls_7: -1371649132
       walls_15: -795939683
+      walls_33: -347399983
       walls_6: -470259386
-      walls_16: -1724912502
       walls_17: -867571998
-      walls_37: -1663876936
+      walls_16: -1724912502
       walls_28: 1201885951
       walls_19: 1803160624
+      walls_37: -1663876936
       walls_18: -1647568744
       walls_23: -1726473955
       walls_0: 1189642943

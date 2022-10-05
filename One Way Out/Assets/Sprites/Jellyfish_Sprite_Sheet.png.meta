@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -664,8 +664,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Jellyfish_Sprite_Sheet_3: 1030069474
       Jellyfish_Sprite_Sheet_11: -171484641
-      Jellyfish_Sprite_Sheet_16: -683162413
       Jellyfish_Sprite_Sheet_19: 417710418
       Jellyfish_Sprite_Sheet_20: 979573841
       Jellyfish_Sprite_Sheet_0: 1753685932
@@ -685,10 +685,10 @@ TextureImporter:
       Jellyfish_Sprite_Sheet_18: -1277426433
       Jellyfish_Sprite_Sheet_8: -396998338
       Jellyfish_Sprite_Sheet_15: 2108876088
-      Jellyfish_Sprite_Sheet_1: -1878150811
       Jellyfish_Sprite_Sheet_12: 209717263
+      Jellyfish_Sprite_Sheet_16: -683162413
       Jellyfish_Sprite_Sheet_2: -1909745429
-      Jellyfish_Sprite_Sheet_3: 1030069474
+      Jellyfish_Sprite_Sheet_1: -1878150811
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
