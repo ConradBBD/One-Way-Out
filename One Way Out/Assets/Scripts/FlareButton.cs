@@ -17,8 +17,8 @@ public class FlareButton : MonoBehaviour
     private void Start()
     {
         blackOverlayFade = GameObject.FindGameObjectWithTag("BlackOverlay").GetComponent<BlackOverlayFade>();
-        timer = 3f;
-        flares = new GameObject[]{ flare1, flare2, flare3 };
+        timer = 10f;
+        flares = new GameObject[]{ flare1, flare2, flare3};
 
     }
 
@@ -40,6 +40,11 @@ public class FlareButton : MonoBehaviour
     }
     private void Update()
     {
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            OnButtonPress();
+        }
+
         if (isScreenLit)
         {
             timer -= Time.deltaTime;
@@ -49,7 +54,7 @@ public class FlareButton : MonoBehaviour
         {
             StartCoroutine(blackOverlayFade.FadeBlackOverlaySquare());
             isScreenLit = false;
-            timer = 3f;
+            timer = 10f;
         }
     }
 
