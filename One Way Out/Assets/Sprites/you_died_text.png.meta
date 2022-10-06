@@ -137,7 +137,7 @@ TextureImporter:
         width: 1215
         height: 247
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: you_died_text_2
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 60
-        width: 292
-        height: 99
+        x: 1206
+        y: 81
+        width: 149
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: you_died_text_4
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 184
-        width: 524
-        height: 117
+        x: 1089
+        y: 193
+        width: 402
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
